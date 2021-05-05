@@ -14,3 +14,6 @@ tabs.Combat = Main:NewTab("Combat")
 sec.Devs = tabs.Credits:NewSection("Developers")
 sec.Devs:NewButton("UILib - Nexus Exploits")
 sec.Devs:NewButton("Scripting - Shade")
+
+sec.Cb = tabs.Combat:Newsection("Combat")
+sec.Cb:NewButton("SilentAim")
