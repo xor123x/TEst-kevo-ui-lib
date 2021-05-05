@@ -1,0 +1,16 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xor123x/ShadeHub/master/UILIBS/kevouilib"))()
+
+local Main = Library.CreateLib("ShadeHub", "Ocean")
+
+
+local tabs = {}
+local sec = {}
+
+
+tabs.Credits = Main:NewTab("Credits")
+tabs.Combat = Main:NewTab("Combat")
+
+
+sec.Devs = tabs.Credits:NewSection("Developers")
+sec.Devs:NewButton("UILib - Nexus Exploits")
+sec.Devs:NewButton("Scripting - Shade")
